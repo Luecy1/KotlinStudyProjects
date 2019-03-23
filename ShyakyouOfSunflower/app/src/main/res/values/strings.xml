@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ShyakyouOfSunflower</string>
+    <string name="my_garden_title">My Garden</string>
+    <string name="plant_list_title">Plant list</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
