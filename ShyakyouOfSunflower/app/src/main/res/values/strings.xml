@@ -3,8 +3,7 @@
     <string name="my_garden_title">My Garden</string>
     <string name="plant_list_title">Plant list</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="garden_empty">Your garden is rmpty</string>
     <string name="navigation_drawer_header_content_description">Image of plant</string>
     <string name="navigation_drawer_header_title">Sunflower</string>
 </resources>
