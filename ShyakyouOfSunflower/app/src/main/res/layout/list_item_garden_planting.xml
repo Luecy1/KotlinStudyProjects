@@ -2,6 +2,17 @@
 <layout
         xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <data>
+        <variable
+                name="clickLister"
+                type="android.view.View.OnClickListener"
+                />
+
+        <variable
+                name="viewModel"
+                type="com.github.luecy1.shyakyouofsunflower.viewmodel.PlantAndGardenPlantingsViewModel"
+                />
+    </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
