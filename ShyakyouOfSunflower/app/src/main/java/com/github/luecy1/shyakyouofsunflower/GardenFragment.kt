@@ -31,5 +31,6 @@ class GardenFragment : Fragment() {
         val viewModel = ViewModelProviders.of(this, factory)
             .get(GardenPlantingListViewModel::class.java)
 
+        viewModel.gardenPlantings
     }
 }

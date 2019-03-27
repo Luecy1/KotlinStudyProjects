@@ -1,6 +1,7 @@
 package com.github.luecy1.shyakyouofsunflower.utils
 
 import android.content.Context
+import com.github.luecy1.shyakyouofsunflower.data.AppDatabase
 import com.github.luecy1.shyakyouofsunflower.data.GardenPlantingRepository
 import com.github.luecy1.shyakyouofsunflower.viewmodel.GardenPlantingListViewModelFactory
 
@@ -11,7 +12,9 @@ object InjectorUtils {
     }
 
     private fun getGardenPlantingRepository(context: Context): GardenPlantingRepository {
-        return GardenPlantingRepository.getInstance()
+        return GardenPlantingRepository.getInstance(
+            AppDatabase.getInstance(context.applicationContext).gardenPlantingDao()
+        )
     }
 
     fun provideGardenPlantingListModelFactory(context: Context)
